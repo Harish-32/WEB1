@@ -1,0 +1,46 @@
+body {
+  background-color: green;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 20px auto;
+  padding: 89px;
+  background: green;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+  color: cadetblue;
+}
+.doctor-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 32px;
+}
+.doctor-1 {
+  background:blue; 
+}
+
+.doctor-2 {
+  background: aliceblue; 
+}
+
+.doctor-3 {
+  background:lightblue; 
+}
+
+.big-image {
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
